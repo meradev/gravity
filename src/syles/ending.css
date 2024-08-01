@@ -1,0 +1,53 @@
+body {
+  font-family: Roboto;
+  background-color: #0077b6;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+b {
+  color: #caf0f8;
+}
+
+a {
+  color: #caf0f8;
+  text-decoration: none;
+}
+
+#author {
+  transition: font-size 300ms ease;
+}
+
+#author:hover {
+  font-size: larger;
+}
+
+#web-name {
+  letter-spacing: 5px;
+  margin-bottom: 1%;
+  display: inline;
+  transition: letter-spacing 300ms ease, font-size 300ms ease;
+}
+
+#web-name:hover {
+  letter-spacing: 8px;
+  font-size: larger;
+}
+
+img {
+  margin-right: 2%;
+  transition: transform 300ms ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.container-text {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}

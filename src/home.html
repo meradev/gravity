@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravity Riobamba</title>
+    <link rel="stylesheet" href="syles/whatsapp-button.css" />
+    <!-- Integra la fuente Roboto con sus variantes al proyecto -->
+    <!-- Referencia a la Hoja de estilos principal-->
+    <link href="syles/home.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- Html incrustado Menu -->
+      <iframe src="navbar.html"></iframe>
+    </div>
+    <!-- Sección de Presentación -->
+    <div class="welcome-section">
+      <div class="container-text">
+        <h1>BIENVENIDO A GRAVITY FITNESS GYM</h1>
+        <p>
+          Un lugar donde tu bienestar es la prioridad. Disfruta de un ambiente
+          motivador y las mejores instalaciones para alcanzar tus objetivos.
+        </p>
+        <h3>¡Entrena duro y Vive mejor!</h3>
+      </div>
+      <div class="img-box">
+        <img src="res/fit-girl.png" alt="chica fitness" />
+      </div>
+    </div>
+
+    <!-- Sección que contiene las disciplinas en forma de cajas -->
+    <div class="discipline-container">
+      <a href="instalaciones.html#upper-muscles" class="gym">
+        <h2 class="discipline-tittle">GYM</h2>
+        <p class="discipline-description">
+          Entrena con pesas y máquinas, aislando cada grupo muscular para
+          fortalecer tu cuerpo.
+        </p>
+      </a>
+      <a href="instalaciones.html#discipline" class="crossfit">
+        <h2 class="discipline-tittle">CROSSFIT</h2>
+        <p class="discipline-description">
+          Entrena tu fuerza y acondiciona tu físico utilizando movimientos
+          funcionales a alta intensidad, combinando elementos de gimnasia,
+          halterofilia y entrenamiento cardiovascular.
+        </p>
+      </a>
+      <a href="instalaciones.html#discipline" class="calistenia">
+        <h2 class="discipline-tittle">CALISTENIA</h2>
+        <p class="discipline-description">
+          Entrena utilizando tu peso corporal, realizando ejercicios que mejoran
+          la fuerza, la flexibilidad, la agilidad y la coordinación.
+        </p>
+      </a>
+    </div>
+
+    <!--llamado a la acción -->
+    <div class="action-container">
+      <span class="action-tittle">ANIMATE A SER TÚ MEJOR VERSIÓN</span>
+      <span class="action-text">Únete a la Comunidad Gravity Ahora</span>
+      <button
+        onclick="window.open('https://wa.link/6iu2r7', '_blank')"
+        class="action-button"
+        type="button"
+      >
+        <img src="res/icon_whatsapp.png" id="whatsapp-logo" />WhatsApp
+      </button>
+    </div>
+
+    <!-- Dirección, Mapa -->
+    <div class="dir-container">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15952.334225311786!2d-78.63249!3d-1.689651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3a919e9fbfaf3%3A0x9fa268ae8c3c2891!2sGravity%20GYM!5e0!3m2!1ses!2sec!4v1721402490475!5m2!1ses!2sec"
+        ></iframe>
+      </div>
+      <div class="infomap-container">
+        <a
+          href="https://maps.app.goo.gl/qRbwTTiS84UcshQa8"
+          target="_blank"
+          class="infomap-tittle"
+        >
+          <span>¿</span> COMÓ LLEGAR <span>?</span>
+        </a>
+        <p class="infomap-text">
+          Estamos ubicados en la <br />
+          Av. 9 de Octubre y Leopoldo Freire
+        </p>
+        <button
+          onclick="window.open('https://wa.link/6iu2r7', '_blank')"
+          class="action-button info-button"
+          type="button"
+        >
+          <img src="res/icon_whatsapp.png" id="whatsapp-logo" />WhatsApp
+        </button>
+      </div>
+    </div>
+
+    <div class="ending">
+      <!-- html incrustado Pie de Pagina -->
+      <iframe src="ending.html"></iframe>
+    </div>
+  </body>
+</html>

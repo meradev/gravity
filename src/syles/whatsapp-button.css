@@ -1,0 +1,17 @@
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #25d366;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  color: white;
+  height: 5rem;
+  transition: transform 150ms ease;
+}
+
+.action-button:hover {
+  transform: scale(1.1);
+}
