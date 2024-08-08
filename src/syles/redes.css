@@ -246,15 +246,18 @@ body {
   transform: scale(1.1);
 }
 
+/* estilos para el ending o pie de pagina */
 .ending {
   width: 100%;
-  height: 36rem;
+  margin-top: auto;
+  margin-bottom: 0;
+  height: 29rem;
 }
 
 .ending > iframe {
-  display: block;
   width: 100%;
   height: 100%;
+  border: none;
 }
 
 @media (min-width: 500px) {
