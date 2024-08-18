@@ -23,6 +23,8 @@ body {
 
 .navbar > iframe {
   width: 100%;
+  display: block;
+  border: none;
 }
 
 /* Bloque de redes sociales */
@@ -292,7 +294,6 @@ body {
   .navbar > iframe {
     background-color: white;
     position: fixed;
-
     height: 5rem;
   }
 
